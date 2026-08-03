@@ -1,0 +1,134 @@
+.removed-page{
+
+    min-height:100vh;
+
+    background:#02060c;
+
+    display:flex;
+
+    flex-direction:column;
+
+    justify-content:center;
+
+    align-items:center;
+
+    padding:30px;
+
+    font-family:Arial, Helvetica, sans-serif;
+
+}
+
+/* Header */
+
+.home-header{
+
+    margin-bottom:50px;
+
+}
+
+.logo{
+
+    display:flex;
+
+    align-items:center;
+
+    gap:15px;
+
+    color:white;
+
+    font-size:40px;
+
+    font-weight:bold;
+
+    text-shadow:
+        0 0 5px rgba(240,19,56,.6),
+        0 0 15px rgba(240,19,56,.5);
+
+}
+
+.logo-icon{
+
+    color:#ff0000;
+
+    font-size:48px;
+
+}
+
+/* Card */
+
+.removed-card{
+
+    width:500px;
+
+    background:#0d1523;
+
+    border:1px solid #253246;
+
+    border-radius:18px;
+
+    padding:45px;
+
+    text-align:center;
+
+    box-shadow:
+        0 0 18px rgba(240,19,56,.2);
+
+}
+
+.removed-card h1{
+
+    color:white;
+
+    margin-bottom:20px;
+
+}
+
+.removed-card p{
+
+    color:#cbd5e1;
+
+    font-size:18px;
+
+    line-height:1.6;
+
+    margin-bottom:35px;
+
+}
+
+/* Button */
+
+.removed-card button{
+
+    width:180px;
+
+    height:52px;
+
+    border:none;
+
+    border-radius:8px;
+
+    background:rgba(240,19,56,.8);
+
+    color:white;
+
+    font-size:17px;
+
+    font-weight:600;
+
+    cursor:pointer;
+
+    transition:all .3s ease;
+
+}
+
+.removed-card button:hover{
+
+    transform:translateY(-3px);
+
+    background:rgba(68,5,15,.8);
+
+    box-shadow:
+        0 0 10px rgba(240,19,56,.6),
+        0 0 20px rgba(240,19,56,.5);
+
+}

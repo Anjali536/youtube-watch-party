@@ -3,6 +3,7 @@ import axios from "axios";
 import { useNavigate } from "react-router-dom";
 import "../styles/Home.css";
 import { FaPlayCircle } from "react-icons/fa";
+const API = import.meta.env.VITE_BACKEND_URL;
 function Home() {
 
     const [createUsername, setCreateUsername] = useState("");
@@ -22,9 +23,7 @@ function Home() {
         try {
 
             const res = await axios.post(
-
-                "http://localhost:5000/api/rooms/create"
-
+                `${API}/api/rooms/create`
             );
 
             navigate(`/room/${res.data.room.roomCode}`, {

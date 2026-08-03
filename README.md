@@ -178,7 +178,7 @@ npm run dev
 **Anjali Thakur**
 
 - GitHub: https://github.com/Anjali536
-- LinkedIn: www.linkedin.com/in/anjali-thakur-0bb16127b
+- LinkedIn: www.linkedin.com/in/anjali-thakur-158686298
 
 ---
 
